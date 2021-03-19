@@ -1,0 +1,23 @@
+{
+	"author": {
+		"email": "Christopher.cilino@composed.io",
+		"name": "Christopher Cilino, Jon McBee",
+		"url": "www.composed.io"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-user-manager/issues?status=new&status=open",
+	"dependencies": {
+		"@cs/linked-list": "^1.7.6",
+		"@cs/persistence": "^0.0.9-Beta"
+	},
+	"description": "Simple User Manager with persistence and encryption.",
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/user-configuration-manager",
+	"os": [
+		"Windows x64",
+		"Linux x64",
+		"Mac OS X x64"
+	],
+	"repository": "https://bitbucket.org/composedsystems/composed-user-manager/src/master/",
+	"version": "0.0.14-Beta"
+}

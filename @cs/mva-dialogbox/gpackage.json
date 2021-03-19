@@ -1,0 +1,29 @@
+{
+	"author": {
+		"email": "jon.mcbee@composed.io",
+		"name": "Jon McBee, Ethan Stern",
+		"url": "www.composed.io"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-dialog-box/issues",
+	"dependencies": {
+		"@cs/mva-viewable": "^0.1.1"
+	},
+	"description": "An extension for MVA-Viewable (the view component that can be installed with a dependency on MVA-Core) that defines an extension point for Dialog Boxes.",
+	"keywords": [
+		"MVA",
+		"Core",
+		"Dialog",
+		"Popup"
+	],
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/mva-dialogbox",
+	"os": [
+		"Windows 95/NT",
+		"Windows x64",
+		"Linux x64",
+		"Mac OS X x64"
+	],
+	"repository": "https://bitbucket.org/composedsystems/composed-dialog-box/src/master/",
+	"version": "0.1.1-Beta"
+}

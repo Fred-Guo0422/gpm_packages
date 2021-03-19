@@ -1,0 +1,25 @@
+{
+	"author": {
+		"email": "jon.mcbee@composedsystems.com",
+		"name": "Jon McBee, Ethan Stern",
+		"url": "www.composed.io"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-mva-viewmanager-extension/issues",
+	"dependencies": {
+		"@cs/listbox": "^1.0.1",
+		"@cs/lookup-table": "^0.1.0",
+		"@cs/mva-viewable": "^0.1.1"
+	},
+	"description": "An extension for MVA-Viewable that provides concrete ViewManagers",
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/mva-viewmanager",
+	"os": [
+		"Windows 95/NT",
+		"Windows x64",
+		"Linux x64",
+		"Mac OS X x64"
+	],
+	"repository": "https://bitbucket.org/composedsystems/composed-mva-viewmanager-extension",
+	"version": "0.0.3-Beta"
+}

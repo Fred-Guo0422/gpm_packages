@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="19008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -341,7 +341,6 @@
 			<Item Name="TabbedViewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/ViewManager/source/TabbedViewManager/TabbedViewManager.lvlib"/>
 		</Item>
 		<Item Name="Abstract MVA Application Template.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/Template/Abstract MVA Application Template.vi"/>
-		<Item Name="Copy of QuadViewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/TestSystem/Views/UpDown ViewManager/Copy of QuadViewManager.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

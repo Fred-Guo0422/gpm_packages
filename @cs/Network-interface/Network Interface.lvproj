@@ -55,6 +55,9 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="String Control Sink.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/String Control Sink/String Control Sink.lvclass"/>
 				<Item Name="String Log Sink.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/String Log Sink/String Log Sink.lvclass"/>
+				<Item Name="TCP Client.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Client/TCP Client.lvclass"/>
+				<Item Name="TCP Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Connection/TCP Connection.lvclass"/>
+				<Item Name="TCP Server.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Server/TCP Server.lvclass"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>

@@ -93,7 +93,6 @@
 				<Item Name="Singleton Event Log.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/Composed Log/Singleton Event Log/Singleton Event Log.lvlib"/>
 			</Item>
 			<Item Name="Examples" Type="Folder">
-				<Item Name="Network Logger Examples.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Examples/Examples/Network Logger Examples.lvlib"/>
 				<Item Name="Logger Examples.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Examples/Logger Examples.lvlib"/>
 			</Item>
 			<Item Name="Log Sink" Type="Folder">
@@ -108,7 +107,6 @@
 				<Item Name="Buffered Log Sink.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/Buffered Log Sink/Buffered Log Sink.lvclass"/>
 				<Item Name="ConsoleView.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/ConsoleView/ConsoleView.lvlib"/>
 				<Item Name="LVQueue Sink.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/LVQueue Sink/LVQueue Sink.lvclass"/>
-				<Item Name="Network Sink.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/Network Sink/Network Sink.lvlib"/>
 			</Item>
 			<Item Name="Text File" Type="Folder">
 				<Item Name="Text File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/event-logger/Source/Text File Sink/Text File/Text File.lvclass"/>
@@ -180,9 +178,124 @@
 			<Item Name="IViewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager.lvlib"/>
 			<Item Name="IViewModel.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewModel/IViewModel.lvlib"/>
 		</Item>
-		<Item Name="Network" Type="Folder">
-			<Item Name="Network Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-Sink/Source/Network Interface/Network Interface.lvlib"/>
-			<Item Name="TCP Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-Sink/Source/TCP Interface/TCP Interface.lvlib"/>
+		<Item Name="Network-interface" Type="Folder">
+			<Item Name="Examples" Type="Folder">
+				<Item Name="Client Actor" Type="Folder">
+					<Item Name="Client Actor" Type="Folder"/>
+					<Item Name="Client Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Examples/Client Actor/Client Actor.lvlib"/>
+				</Item>
+				<Item Name="EventConnectionCallback" Type="Folder">
+					<Item Name="EventConnectionCallback.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Examples/EventConnectionCallback/EventConnectionCallback.lvclass"/>
+				</Item>
+				<Item Name="EventMessageRxCallback" Type="Folder">
+					<Item Name="EventMessageRxCallback.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Examples/EventMessageRxCallback/EventMessageRxCallback.lvclass"/>
+				</Item>
+				<Item Name="Example Multiplex Server.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Examples/Example Multiplex Server.vi"/>
+			</Item>
+			<Item Name="Source" Type="Folder">
+				<Item Name="Connection Factory Session" Type="Folder">
+					<Item Name="ConnectionFactoryHandler" Type="Folder"/>
+					<Item Name="ConnectionFactorySession" Type="Folder"/>
+					<Item Name="INewConnectionCallback" Type="Folder"/>
+					<Item Name="Messages" Type="Folder">
+						<Item Name="Create Connection Msg" Type="Folder"/>
+						<Item Name="Process Connection Msg" Type="Folder"/>
+					</Item>
+					<Item Name="ConnectionFactorySession.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/Connection Factory Session/ConnectionFactorySession.lvlib"/>
+				</Item>
+				<Item Name="Connection Reference" Type="Folder">
+					<Item Name="Connection Reference" Type="Folder"/>
+					<Item Name="IConnection" Type="Folder"/>
+					<Item Name="Connection Reference.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/Connection Reference/Connection Reference.lvlib"/>
+				</Item>
+				<Item Name="ConnectionManager" Type="Folder">
+					<Item Name="ConnectionManager" Type="Folder"/>
+					<Item Name="ConnectionManager Messages" Type="Folder">
+						<Item Name="Launch Reader Msg" Type="Folder"/>
+						<Item Name="Process Write Request Msg" Type="Folder"/>
+					</Item>
+					<Item Name="ConnectionManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/ConnectionManager/ConnectionManager.lvlib"/>
+				</Item>
+				<Item Name="ConnectionReader" Type="Folder">
+					<Item Name="ConnectionReader" Type="Folder"/>
+					<Item Name="ConnectionReader Messages" Type="Folder">
+						<Item Name="Wait on Message Msg" Type="Folder"/>
+					</Item>
+					<Item Name="ConnectionReader.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/ConnectionReader/ConnectionReader.lvlib"/>
+				</Item>
+				<Item Name="Create Ref Message" Type="Folder">
+					<Item Name="Create Ref Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/Create Ref Message/Create Ref Message.lvclass"/>
+				</Item>
+				<Item Name="IConnectionFactory" Type="Folder">
+					<Item Name="IConnectionFactory.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/IConnectionFactory/IConnectionFactory.lvclass"/>
+				</Item>
+				<Item Name="Logged Actor" Type="Folder">
+					<Item Name="LoggedActor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/Logged Actor/LoggedActor.lvclass"/>
+				</Item>
+				<Item Name="MessagingInterfaces" Type="Folder">
+					<Item Name="IConnectionStateChangeCallback" Type="Folder"/>
+					<Item Name="IMessageReturnPolicy" Type="Folder"/>
+					<Item Name="IPacket" Type="Folder"/>
+					<Item Name="IReadStrategy" Type="Folder"/>
+					<Item Name="IWriteExecutionCallback" Type="Folder"/>
+					<Item Name="IWriteStrategy" Type="Folder"/>
+					<Item Name="WriteRequest" Type="Folder"/>
+					<Item Name="MessagingInterfaces.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/MessagingInterfaces/MessagingInterfaces.lvlib"/>
+				</Item>
+				<Item Name="MultiplexedConnectionHandler" Type="Folder">
+					<Item Name="MultiplexedConnectionHandler" Type="Folder"/>
+					<Item Name="MultiplexedConnectionHandler Messages" Type="Folder">
+						<Item Name="Execute Single Point Write Request Msg" Type="Folder"/>
+					</Item>
+					<Item Name="MultiplexedConnectionHandler.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/MultiplexedConnectionHandler/MultiplexedConnectionHandler.lvlib"/>
+				</Item>
+				<Item Name="Network Messenger" Type="Folder">
+					<Item Name="ClusterMessagePacket" Type="Folder"/>
+					<Item Name="Header Data Packet Return" Type="Folder"/>
+					<Item Name="IPacket Return" Type="Folder"/>
+					<Item Name="Multiplexed Messenger" Type="Folder"/>
+					<Item Name="Network Messenger" Type="Folder"/>
+					<Item Name="ReadStrategy" Type="Folder"/>
+					<Item Name="Synchronous Write Callback" Type="Folder"/>
+					<Item Name="Types" Type="Folder"/>
+					<Item Name="Write Strategy" Type="Folder"/>
+					<Item Name="Network Messenger.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/Network Messenger/Network Messenger.lvlib"/>
+				</Item>
+				<Item Name="PersistantConnectionHandler" Type="Folder">
+					<Item Name="New Connection Policy" Type="Folder"/>
+					<Item Name="PersistantConnectionHandler" Type="Folder"/>
+					<Item Name="PersistantConnectionHandler Messages" Type="Folder">
+						<Item Name="Execute Write Request Msg" Type="Folder"/>
+						<Item Name="Launch Connection Factory Msg" Type="Folder"/>
+						<Item Name="Process New Connection Msg" Type="Folder"/>
+					</Item>
+					<Item Name="PersitantConnectionHandler.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/PersistantConnectionHandler/PersitantConnectionHandler.lvlib"/>
+				</Item>
+				<Item Name="ProtectedConnectionReader" Type="Folder">
+					<Item Name="ProtectedConnectionReader.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/ProtectedConnectionReader/ProtectedConnectionReader.lvclass"/>
+				</Item>
+				<Item Name="ProtectedConnectionWriter" Type="Folder">
+					<Item Name="ProtectedConnectionWriter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/ProtectedConnectionWriter/ProtectedConnectionWriter.lvclass"/>
+				</Item>
+				<Item Name="TCP Interface" Type="Folder">
+					<Item Name="TCP Client" Type="Folder">
+						<Item Name="TCP Client.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Client/TCP Client.lvclass"/>
+					</Item>
+					<Item Name="TCP Connection" Type="Folder">
+						<Item Name="TCP Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Connection/TCP Connection.lvclass"/>
+					</Item>
+					<Item Name="TCP Server" Type="Folder">
+						<Item Name="TCP Server.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Server/TCP Server.lvclass"/>
+					</Item>
+					<Item Name="TCP Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Source/TCP Interface/TCP Interface.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name=".gitignore" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/.gitignore"/>
+			<Item Name="gpackage.json" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/gpackage.json"/>
+			<Item Name="Network Interface.aliases" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Network Interface.aliases"/>
+			<Item Name="Network Interface.lvlps" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Network Interface.lvlps"/>
+			<Item Name="Network Interface.lvproj" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/Network Interface.lvproj"/>
+			<Item Name="README.md" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Network-interface/README.md"/>
 		</Item>
 		<Item Name="persistence" Type="Folder">
 			<Item Name="source" Type="Folder">
@@ -527,55 +640,6 @@
 				<Property Name="TgtF_productName" Type="Str">My Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5487DE6E-5A08-474C-99C8-B3538CF9F23E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Network Logger" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{2BC91D49-90F7-4F8D-88ED-A481164AD955}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{1EDD10EF-498E-46EC-840D-21E6F19177E7}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{9FEAB828-0869-4ADB-A5C5-9F7AEF698006}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Network Logger</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/builds/NI_AB_PROJECTNAME/Network Logger</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{3B1AED8F-449F-490B-B266-22BE7A8D5473}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Network Logger.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/builds/NI_AB_PROJECTNAME/Network Logger/Network Logger.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/builds/NI_AB_PROJECTNAME/Network Logger/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8D301A19-3E48-4936-9566-0CB2F1809818}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Network Logger Examples.lvlib/Network Sink/Network Sink - Log Aggregator.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Network Logger Examples.lvlib/Network Sink/Network Sink - Module 1.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Network Logger Examples.lvlib/Network Sink/Network Sink - Module 2.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Network Logger</Property>
-				<Property Name="TgtF_internalName" Type="Str">Network Logger</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Network Logger</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C2C5B947-A9B2-4189-BB93-DD8EA16C093F}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Network Logger.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Singleton_Event_Log" Type="Packed Library">

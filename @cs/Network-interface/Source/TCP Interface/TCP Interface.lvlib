@@ -4,7 +4,4 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="TCP Client.lvclass" Type="LVClass" URL="../TCP Client/TCP Client.lvclass"/>
-	<Item Name="TCP Connection.lvclass" Type="LVClass" URL="../TCP Connection/TCP Connection.lvclass"/>
-	<Item Name="TCP Server.lvclass" Type="LVClass" URL="../TCP Server/TCP Server.lvclass"/>
 </Library>

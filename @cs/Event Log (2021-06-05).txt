@@ -1,0 +1,8 @@
+16:00:12,674 21.6.5 Debug IViewModel.lvlib:IViewModel.lvclass Framework instance started
+16:00:12,674 21.6.5 Info IViewModel.lvlib:IViewModel.lvclass Launching
+16:00:12,867 21.6.5 Info IModel.lvlib:IModel.lvclass Launching
+16:00:12,883 21.6.5 Info IViewable.lvlib:IViewable.lvclass Launching
+16:00:15,584 21.6.5 Info IViewModel.lvlib:IViewModel.lvclass Stopped with 0 nested actors (final code: 0)
+16:00:15,584 21.6.5 Info IModel.lvlib:IModel.lvclass Stopped with 0 nested actors (final code: 0)
+16:00:15,625 21.6.5 Info IViewable.lvlib:IViewable.lvclass Stopped with 0 nested actors (final code: 0)
+16:00:16,370 21.6.5 Debug IViewModel.lvlib:IViewModel.lvclass Framework instance stopped (0)

@@ -333,7 +333,6 @@
 					<Item Name="Device Post Dip Length" Type="Folder"/>
 					<Item Name="Iterate" Type="Folder"/>
 					<Item Name="iTest Step" Type="Folder"/>
-					<Item Name="Nested Conditional in While Loop Example.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Nested Conditional in While Loop Example/Nested Conditional in While Loop Example.lvlib"/>
 				</Item>
 				<Item Name="Parallelizer Example" Type="Folder">
 					<Item Name="iTest Step" Type="Folder"/>
@@ -347,27 +346,12 @@
 						<Item Name="Create Process Msg" Type="Folder"/>
 						<Item Name="Execute Msg" Type="Folder"/>
 					</Item>
-					<Item Name="Parallelizer Example.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Parallelizer Example/Parallelizer Example.lvlib"/>
 				</Item>
-				<Item Name="Subroutine Example" Type="Folder">
-					<Item Name="Subroutine Example.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Subroutine Example/Subroutine Example.vi"/>
-				</Item>
+				<Item Name="Subroutine Example" Type="Folder"/>
 				<Item Name="While Loop Stop Example" Type="Folder">
-					<Item Name="Mock Executioner" Type="Folder">
-						<Item Name="Mock Executioner.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/While Loop Stop Example/Mock Executioner/Mock Executioner.lvclass"/>
-					</Item>
-					<Item Name="Mock Test Step" Type="Folder">
-						<Item Name="Mock Test Step.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/While Loop Stop Example/Mock Test Step/Mock Test Step.lvclass"/>
-					</Item>
-					<Item Name="While Loop Stop Example.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/While Loop Stop Example/While Loop Stop Example.vi"/>
+					<Item Name="Mock Executioner" Type="Folder"/>
+					<Item Name="Mock Test Step" Type="Folder"/>
 				</Item>
-				<Item Name="Case Structure Test.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Case Structure Test.vi"/>
-				<Item Name="Copy Test.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Copy Test.vi"/>
-				<Item Name="Duplicate Test.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Duplicate Test.vi"/>
-				<Item Name="Orphaned Pointer Test.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Orphaned Pointer Test.vi"/>
-				<Item Name="Relink Test.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Relink Test.vi"/>
-				<Item Name="Simple Test Executive Test.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Simple Test Executive Test.vi"/>
-				<Item Name="Test Restore Point.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Sandbox/Test Restore Point.vi"/>
 			</Item>
 			<Item Name="Test Executive.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Test Executive/Test Executive.lvlib"/>
 		</Item>

@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -535,6 +535,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{82C67BDC-DD50-4BE5-8A72-4E724C01A560}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E6199984-563B-43DE-855F-132206345AC1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{4119EF4F-CA12-43AA-AE33-77F8CC1CED91}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Event logger</Property>
@@ -590,6 +591,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{BD33D298-1953-4448-A275-53717037A67C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6DD875A9-8E26-4CEB-B279-EBFBEE69A30E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{925976CF-3ED0-44C2-8FD4-B08FD0388686}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>

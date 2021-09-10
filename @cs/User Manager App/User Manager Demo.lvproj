@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -12,17 +12,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Model" Type="Folder">
-			<Item Name="User Manager Model.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager Model/User Manager Model.lvlib"/>
+		<Item Name="User Manager App" Type="Folder">
+			<Item Name="Model" Type="Folder">
+				<Item Name="User Manager Model.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager Model/User Manager Model.lvlib"/>
+			</Item>
+			<Item Name="Views" Type="Folder">
+				<Item Name="Login View.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/Login View/Login View.lvlib"/>
+				<Item Name="User Manager View.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager View/User Manager View.lvlib"/>
+			</Item>
+			<Item Name="View Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/View Manager/View Manager.lvlib"/>
+			<Item Name="ViewModel.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/ViewModel/ViewModel.lvlib"/>
+			<Item Name="User Manager Application Types.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager Model/Type Definitions/User Manager Application Types.lvlib"/>
+			<Item Name="User Manager Application.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager Application.lvlib"/>
 		</Item>
-		<Item Name="Views" Type="Folder">
-			<Item Name="Login View.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/Login View/Login View.lvlib"/>
-			<Item Name="User Manager View.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager View/User Manager View.lvlib"/>
-		</Item>
-		<Item Name="View Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/View Manager/View Manager.lvlib"/>
-		<Item Name="ViewModel.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/ViewModel/ViewModel.lvlib"/>
-		<Item Name="User Manager Application Types.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager Model/Type Definitions/User Manager Application Types.lvlib"/>
-		<Item Name="User Manager Application.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/User Manager App/User Manager Application.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -94,6 +96,7 @@
 				<Item Name="RingStringsBinding.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/transport/Source/Concrete/RingStringsBinding/RingStringsBinding.lvclass"/>
 				<Item Name="TerminalEnabledStateBinding.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/transport/Source/Concrete/TerminalEnabledStateBinding/TerminalEnabledStateBinding.lvclass"/>
 				<Item Name="TerminalVisibilityBinding.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/transport/Source/Concrete/TerminalVisibilityBinding/TerminalVisibilityBinding.lvclass"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -107,6 +110,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{4C3A062A-B1D5-4D04-82DC-9D467E90EF39}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{24525181-DBE7-4C52-B9F1-F3C9AE3C9548}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{530E9249-2A7F-498E-BC82-8FD965FEA1C2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">User Manager Demo</Property>
@@ -131,7 +135,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0DD9D511-886F-43C7-973D-F6AC98FB019B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/User Manager Application.lvlib/Assembler.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/User Manager App/User Manager Application.lvlib/Assembler.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -142,6 +146,43 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{000E1857-8276-4850-9C84-22ED5AE0E4DC}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">User Manager Demo.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="User Manager App" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{825477A5-D202-43E4-BF92-D5007F9D60B2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">User Manager App</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/ghj19/Documents/LabVIEW Data/2020(64-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ghj19/Documents/GitHub/Test-System/User Manager App</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E337043B-44A6-4339-9E20-3E736A171AD0}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ghj19/Documents/GitHub/Test-System/User Manager App</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ghj19/Documents/GitHub/Test-System/User Manager App/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8F6B5F63-C4E1-4032-AC73-F016AF5B708A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/User Manager App</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>

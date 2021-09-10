@@ -16,7 +16,7 @@
 		<Item Name="ListboxEventHandler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/EventHandler/ListboxEventHandler/ListboxEventHandler.lvclass"/>
 	</Item>
 	<Item Name="Messages to IEventAggregator" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="ControlDragEndedMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ControlDragEndedMsg/ControlDragEndedMsg.lvclass"/>
 		<Item Name="ControlDragOverMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ControlDragOverMsg/ControlDragOverMsg.lvclass"/>
 		<Item Name="ControlDragSourceUpdateMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ControlDragSourceUpdateMsg/ControlDragSourceUpdateMsg.lvclass"/>
@@ -32,6 +32,7 @@
 		<Item Name="Launch Event Handlers Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/Launch Event Handlers Msg/Launch Event Handlers Msg.lvclass"/>
 		<Item Name="ListboxDoubleClickMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ListboxDoubleClickMsg/ListboxDoubleClickMsg.lvclass"/>
 		<Item Name="ListboxEditCellMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ListboxEditCellMsg/ListboxEditCellMsg.lvclass"/>
+		<Item Name="MenuActivationMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/Menu Activation Msg/MenuActivationMsg.lvclass"/>
 		<Item Name="MenuSelectionMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/MenuSelectionMsg/MenuSelectionMsg.lvclass"/>
 		<Item Name="PanelCloseMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/PanelCloseMsg/PanelCloseMsg.lvclass"/>
 		<Item Name="ShortcutMenuActivationMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ShortcutMenuActivationMsg/ShortcutMenuActivationMsg.lvclass"/>

@@ -32,7 +32,11 @@
 		<Item Name="Launch Event Handlers Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/Launch Event Handlers Msg/Launch Event Handlers Msg.lvclass"/>
 		<Item Name="ListboxDoubleClickMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ListboxDoubleClickMsg/ListboxDoubleClickMsg.lvclass"/>
 		<Item Name="ListboxEditCellMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ListboxEditCellMsg/ListboxEditCellMsg.lvclass"/>
+<<<<<<< HEAD
 		<Item Name="MenuActivationMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/Menu Activation Msg/MenuActivationMsg.lvclass"/>
+=======
+		<Item Name="MenuActivationMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/Receive Menu Activation Event Msg/MenuActivationMsg.lvclass"/>
+>>>>>>> 7d21031f5c172b8bb3b074db94012267ca46f961
 		<Item Name="MenuSelectionMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/MenuSelectionMsg/MenuSelectionMsg.lvclass"/>
 		<Item Name="PanelCloseMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/PanelCloseMsg/PanelCloseMsg.lvclass"/>
 		<Item Name="ShortcutMenuActivationMsg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/IEventAggregator Messages/ShortcutMenuActivationMsg/ShortcutMenuActivationMsg.lvclass"/>

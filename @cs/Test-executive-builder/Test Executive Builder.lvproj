@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -709,6 +709,7 @@
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="ViewModelRTM.rtm" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/Car-wash/Source/ViewModel/ViewModel/ViewModelRTM.rtm"/>
 				<Item Name="Send Redraw Tree.vi" Type="VI" URL="/&lt;vilib&gt;/gpm_packages/@cs/Test-executive-builder/Source/Test Executive Builder Model/Test Executive Builder Model Messages/Redraw Tree Msg/Send Redraw Tree.vi"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -722,6 +723,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{794E6FE8-9175-4EF0-A315-0E99C89859FF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{23EE2671-37F2-4316-8CDC-09E0E9D60BDF}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A6DC5BEF-0849-4125-A7DB-07B7728CAE39}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Test Application</Property>

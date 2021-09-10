@@ -1,2 +1,0 @@
-# composed-user-manager
-
